@@ -1,11 +1,11 @@
 # CSIV — Cell Selection Integrity Verification
 
-**What it is:**  
-CSIV is a verification and decision framework that hardens how a device picks a cell before it connects. It checks what a tower broadcasts (MIB/SIB and measurements), scores odd behavior, and steers the device away from suspicious cells to reduce tracking, denial, and service manipulation.
+**What it is**  
+CSIV is a verification and decision framework that hardens how User Equipment (UE) chooses a serving cell _before_ it connects. It checks what a cell broadcasts (MIB/SIB and measurements), scores odd behavior, and steers the UE away from suspicious cells—reducing tracking, denial, and manipulation risks.
 
 ## The problem
 
-Before security is established, phones trust unauthenticated broadcast info to choose a cell. A rogue transmitter can spoof identities, tweak thresholds, or hide neighbors to win selection, keep you camped, or force back-offs. That’s bad for privacy and can disrupt cellular-enabled systems.
+Before security is established, **UEs rely on unauthenticated broadcast information** to pick and reselect cells. A rogue transmitter can spoof identities, tweak thresholds, or hide neighbors to win selection, keep a UE parked, or force back-offs. This threatens privacy and **can disrupt cellular-enabled operations** across transportation, power, water, industrial IoT, intelligent transport/roadside units, connected vehicles, and other cyber-physical systems which rely on cellular communications for commands, alerts, telemetry, and safety-critical comms.
 
 ## What CSIV does (at a high level)
 
