@@ -1,7 +1,7 @@
-# CSIV — Cell Selection Integrity Verification
+# CSIV - Cell Selection Integrity Verification
 
 **What it is**  
-CSIV is a verification and decision framework that hardens how User Equipment (UE) chooses a serving cell _before_ it connects. It checks what a cell broadcasts (MIB/SIB and measurements), scores odd behavior, and steers the UE away from suspicious cells—reducing tracking, denial, and manipulation risks.
+CSIV is a verification and decision framework that hardens how User Equipment (UE) chooses a serving cell _before_ it connects. It checks what a cell broadcasts (MIB/SIB and measurements), scores odd behavior, and steers the UE away from suspicious cells-reducing tracking, denial, and manipulation risks.
 
 ## The problem
 
