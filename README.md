@@ -45,7 +45,7 @@ Each “soft” VC contributes a small penalty (ΔS); “fatal” combos (e.g., 
 
 ## Decision engine (summary)
 
-- **Suspicion score SSS** uses a half-life decay so transient blips fade.
+- Suspicion score **S** uses a half-life decay so transient blips fade.
     
 - Thresholds move cells between **Clean/Suspect/Barred**, with **Probation** to re-enter clean state after time and a few clean evaluations.
     
